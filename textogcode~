@@ -55,7 +55,7 @@ Angle =    0
 Mirror = 0
 Flip = 0
 #Preamble = u"G17 G21 G40 G90 G64 P0.003 F100"
-Preamble = u"G17 G21 G40 G90 F400"
+Preamble = u"G17 G21 G40 G90 F100"
 Postamble = u"M2"
 
 stringlist = []
