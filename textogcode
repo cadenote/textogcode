@@ -240,10 +240,10 @@ def Rotn(x,y,xscale,yscale,angle):
 def Rutina(x,y):
     v28= x*XScale
     v29= y*YScale
-    v30=sqrt(v28*v28+v29*v29)
-    v31=atan2(v29,v28)
-    v32=v30*cos(v31+radians(Angle))
-    v33=v30*sin(v31+radians(Angle))
+    v30= sqrt(v28*v28+v29*v29)
+    v31= atan2(v29,v28)
+    v32= v30*cos(v31+radians(Angle))
+    v33= v30*sin(v31+radians(Angle))
     rutx= v32+XX
     ruty= v33+YY
     return rutx,ruty
